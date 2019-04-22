@@ -1,4 +1,3 @@
-# test comment
 class Account
   def deposit(amount)
   end
