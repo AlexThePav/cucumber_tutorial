@@ -4,7 +4,7 @@
 # \$(.*) - regex wildcard star modifier, any character any number of times
 # \$([1234567890]*) - regex wildcard star modifier, any character in that class any number of times
 # \$(\d*) - regex any digit any number of times
-# \$(\d+) - regex plus modifier, any character any numbe of times but not zero
+# \$(\d+) - regex plus modifier, any character any number of times but not zero
 # (\d+) cucumbers? - regex ? modifier, previous character 0 or 1 times
 # (?:visit|go to) - regex noncapturing group
 # /^ ... $/ - regex anchors
