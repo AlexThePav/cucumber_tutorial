@@ -45,7 +45,10 @@ get '/' do
 end
 
 set :cash_slot, CashSlot.new
+set :account do 
+  fail 'account has not been set'
+end
 post '/withdraw' do
   teller = Teller.new(settings.cash_slot)
-  fail "I don't know how to withdraw yet, sorry"
+  teller.withdraw_from(settings.account, params[:amount].to_i)
 end
