@@ -1,4 +1,4 @@
-require_relative 'balance_store'
+require_relative 'account'
 require_relative 'transaction_queue'
 
 transaction_queue = TransactionQueue.new
