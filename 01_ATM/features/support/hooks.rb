@@ -11,3 +11,8 @@
 #   block.call
 #   puts "Finished running #{scenario.name}"
 # end
+
+Before do
+  BalanceStore.new.balance = 0
+  TransactionQueue.clear
+end
